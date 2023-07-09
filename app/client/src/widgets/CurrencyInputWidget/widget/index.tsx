@@ -45,7 +45,7 @@ export function defaultValueValidation(
 ): ValidationResponse {
   const NUMBER_ERROR_MESSAGE = {
     name: "TypeError",
-    message: "This value must be number",
+    message: "This value should be number",
   };
   const DECIMAL_SEPARATOR_ERROR_MESSAGE = {
     name: "ValidationError",
